@@ -14,5 +14,22 @@ namespace Torres_de_Hanoi
         public String Valor { get; set; }
         */
 
+    
+        public int Valor { get; set; }
+      
+        public Disco()
+        {
+
+        }
+
+      
+        public Disco(int Valor)
+        {
+            this.Valor = Valor; // asignar el valor al objeto
+        }
+
+ 
+
     }
 }
+
